@@ -1,7 +1,7 @@
 const mongoose = require ('mongoose');
 const Schema = mongoose.Schema;
 
-//defining exam schemas maps to a  MongoBD collection
+//defining exam schemas maps to a MongoBD collection
 
 const Exam = new Schema ( {
         id: {
