@@ -1,7 +1,7 @@
 const mongoose = require ('mongoose');
 const Schema = mongoose.Schema;
 
-//defining  patient schemas
+//defining exam schemas maps to a  MongoBD collection
 
 const Exam = new Schema ( {
         id: {
@@ -9,7 +9,7 @@ const Exam = new Schema ( {
             require : true
         },
 
-        testname: {
+        testName: {
             type: String,
             required: false
         },
