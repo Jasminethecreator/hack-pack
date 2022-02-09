@@ -26,7 +26,7 @@ const Exam = new Schema ( {
             required: true
         },
        
-        brixiascore: {
+        brixiaScore: {
             type: Number,
             required: true
         },
