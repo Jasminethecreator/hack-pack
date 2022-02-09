@@ -5,7 +5,7 @@ const Schema = mongoose.Schema;
 
 const Patient = new Schema({
             
-            patientid: {
+            patientId: {
                 type: Mixed,
                 required: true
                 },
