@@ -13,7 +13,7 @@ const Exam = new Schema ( {
             type: String,
             required: false
         },
-        lastvisit: {
+        lastVisit: {
             type: String,
             required: false
         },
