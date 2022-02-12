@@ -26,7 +26,7 @@ const Patient = new Schema({
                 type: String,
                 required: false
             },
-            zipcode: {
+            zipCode: {
                 type: String,
                 required: false
             },
