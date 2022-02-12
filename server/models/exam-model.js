@@ -4,11 +4,7 @@ const Schema = mongoose.Schema;
 //defining exam schemas maps to a MongoBD collection
 
 const Exam = new Schema ( {
-        id: {
-            type : String,
-            require : true
-        },
-
+        
         testName: {
             type: String,
             required: false
@@ -22,7 +18,7 @@ const Exam = new Schema ( {
             required: false
         },
         xraylink: {
-            type: Number,
+            type: String,
             required: true
         },
        
