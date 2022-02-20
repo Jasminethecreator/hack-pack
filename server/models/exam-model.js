@@ -5,23 +5,9 @@ const Schema = mongoose.Schema;
 
 const Exam = new Schema ( {
        
-        lastVisit: {
-            type: String,
-            required: false
-        },
-        finding: {
-            type: String,
-            required: false
-        },
-        xraylink: {
-            type: String,
-            required: true
-        },
+        
        
-        brixiaScore: {
-            type: Number,
-            required: true
-        },
+        
         
     },
     
