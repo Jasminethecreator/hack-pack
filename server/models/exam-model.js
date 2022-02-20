@@ -5,7 +5,10 @@ const Schema = mongoose.Schema;
 
 const Exam = new Schema ( {
        
-        
+        hoursAdmission: {
+           type:Number
+           required: true,
+        },
        
         
         
