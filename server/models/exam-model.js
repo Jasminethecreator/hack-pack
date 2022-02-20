@@ -6,12 +6,14 @@ const Schema = mongoose.Schema;
 const Exam = new Schema ( {
        
         hoursAdmission: {
-           type:Number
+           type: Number,
            required: true,
         },
        
-        
-        
+        xrayImage: {
+           type: String,
+           required: true,
+        },        
     },
     
 );
