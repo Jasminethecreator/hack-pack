@@ -41,15 +41,9 @@ const Patient = new Schema({
                 required: true
             },
 
-            covid: {
-                type: Boolean,
-                required: true
-            },
+            
 
-            mortality: {
-                type: Boolean,
-                required: false
-            },
+            
         },
         
     );
