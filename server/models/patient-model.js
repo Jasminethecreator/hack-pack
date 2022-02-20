@@ -16,13 +16,13 @@ const Patient = new Schema({
                 required: false
             },
             
-           
-            
+          
             zipCode: {
                 type: String,
                 required: false
             },
-            bmi: {
+            
+            latestBmi: {
                 type: Number,
                 required: false
             },
