@@ -10,10 +10,7 @@ const Patient = new Schema({
                 required: true
                 },
                 
-            name: {
-                type: String,
-                required: true
-            },
+            
             age: {
                 type: Number,
                 required: false
