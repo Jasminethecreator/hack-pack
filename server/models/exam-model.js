@@ -13,9 +13,17 @@ const Exam = new Schema ( {
         xrayImage: {
            type: String,
            required: true,
-        },        
-    },
-    
+        }, 
+       
+        keyFindings: {
+           type: String,
+           required: true,
+        },  
+       
+        
+       
+     },
+                                         
 );
 
 module.exports = mongoose.model('exam', Exam);
