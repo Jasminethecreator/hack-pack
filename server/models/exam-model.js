@@ -5,6 +5,12 @@ const Schema = mongoose.Schema;
 
 const Exam = new Schema ( {
        
+       
+       patientKey: {        
+         type: mongoose.Schema.Types.ObjectId,        
+         ref: 'Patient'    
+      },                
+       
         hoursAdmission: {
            type: Number,
            required: true,
