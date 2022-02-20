@@ -26,6 +26,10 @@ const Exam = new Schema ( {
            required: true,
         },  
        
+        brixiaScores: {
+           type: Number,
+           required: true,
+        },  
         
        
      },
