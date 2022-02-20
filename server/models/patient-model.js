@@ -26,7 +26,7 @@ const Patient = new Schema({
                 type: Number,
                 required: false
             },
-            weight: {
+            latestWeight: {
                 type: Number,
                 required: false
             },
