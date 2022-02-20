@@ -31,10 +31,7 @@ const Patient = new Schema({
                 required: false
             },
 
-            height: {
-                type: Number,
-                required: false
-            },
+            
 
             icuAdmin: {
                 type: Boolean,
