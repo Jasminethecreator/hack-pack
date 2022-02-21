@@ -26,13 +26,15 @@ const Patient = new Schema({
                 required: false
             },
             
-            
             latestWeight: {
                 type: Number,
                 required: false
             },
 
-            
+            latestHeight: {
+                type: Number,
+                required: false
+            },
 
             
         },
