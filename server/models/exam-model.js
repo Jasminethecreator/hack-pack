@@ -11,6 +11,12 @@ const Exam = new Schema ( {
          ref: 'Patient'    
       },                
        
+       
+       examId: {        
+         type: String,        
+         required: true,    
+      },     
+       
         hoursAdmission: {
            type: Number,
            required: true,
