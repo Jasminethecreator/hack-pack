@@ -8,7 +8,10 @@ const LOG_IN = '/login';
 const ITEMS = '/items';
 const ITEM = '/item/:id';
 const ITEM_INSERT = '/item/create';
-const ITEM_UPDATE = '/item/update/:id';
+const ITEM_UPDATE = '/item/update/:id'; 
+// Add routes from Login.js
+const REGISTER = '/register';
+const FORGOT_PASSWORD = '/forgot-password';
 
 export const routes = {
   HOME,
@@ -19,4 +22,6 @@ export const routes = {
   ITEM,
   ITEM_INSERT,
   ITEM_UPDATE,
+  REGISTER,
+  FORGOT_PASSWORD, 
 };
