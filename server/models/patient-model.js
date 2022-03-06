@@ -6,8 +6,10 @@ const Schema = mongoose.Schema;
 const Patient = new Schema({
             
             patientId: {
-                type: Mixed,
+                type: String,
                 required: true
+                unique: true,
+                trim: true
             },
                
             age: {
@@ -17,28 +19,29 @@ const Patient = new Schema({
             
             zipCode: {
                 type: String,
-                required: false
+                required: true
             },
             
             
             latestBmi: {
-                type: Number,
-                required: false
+                type: String,
+                required: true
             },
             
             latestWeight: {
-                type: Number,
+                type: String,
                 required: false
             },
 
             latestHeight: {
-                type: Number,
+                type: String,
                 required: false
             },
 
-            
         },
         
-    );
+       { timestamps: true },   
+        
+      );
     
     module.exports = mongoose.model('paitent', Patient);
