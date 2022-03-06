@@ -7,7 +7,7 @@ const Patient = new Schema({
             
             patientId: {
                 type: String,
-                required: true
+                required: true,
                 unique: true,
                 trim: true
             },
