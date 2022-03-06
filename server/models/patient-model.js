@@ -25,7 +25,7 @@ const Patient = new Schema({
             
             latestBmi: {
                 type: String,
-                required: true
+                required: false
             },
             
             latestWeight: {
