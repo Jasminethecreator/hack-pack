@@ -1,6 +1,15 @@
 /* eslint-disable no-undef, arrow-body-style */
 const Item = require('../models/item-model');
 
+//test
+// testRoute = async (req, res) => {
+//   try {
+//     res.status(200).json({ message: "success" });
+//   } catch (error) {
+//     res.status(404).json({ message: "failtest" });
+//   }
+// };
+
 getItems = async (req, res) => {
   await Item.find({}, (err, items) => {
     if (err) {

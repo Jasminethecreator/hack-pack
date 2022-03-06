@@ -31,6 +31,8 @@
         "@upstatement/prettier-config": "^0.3.0"
     },
     "dependencies": {
+        "express": "^4.17.3",
+        "mongodb": "^4.4.0",
         "node-notifier": "^8.0.1",
         "object-path": "^0.11.5"
     }
