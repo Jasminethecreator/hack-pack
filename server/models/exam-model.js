@@ -14,31 +14,31 @@ const Exam = new Schema ( {
        
        examId: {        
          type: String,        
-         required: true,    
+         required: true   
       },     
        
         hoursAdmission: {
            type: Number,
-           required: true,
+           required: true
         },
        
         xrayImage: {
            type: String,
-           required: true,
+           required: true
         }, 
        
-        keyFindings: {
+        keyFinding: {
            type: String,
-           required: true,
+           required: true
         },  
        
         brixiaScores: {
-           type: Number,
-           required: true,
+           type: Array,
+           required: true
         },  
-        
-       
-     },
+    },    
+       { timestamps: true },    
+                        
                                          
 );
 
