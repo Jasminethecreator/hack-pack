@@ -12,7 +12,7 @@ const Exam = new Schema(
             required: true
         },
         image: {
-            type: File,
+            type: String,
             required: true
         },
         key_findings: {
@@ -27,4 +27,4 @@ const Exam = new Schema(
     { timestamps: true },
 );
 
-module.exports = mongoose.model('exam', Exam);
+module.exports = mongoose.model('exam', Exam, 'exam');
