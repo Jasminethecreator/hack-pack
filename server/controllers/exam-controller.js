@@ -31,7 +31,28 @@ getExamById = async (req, res) => {
         })}); 
 };
 
+// TODO
+createExam = async (req, res) => {
+    const body = req.body;
+
+    if (!body) {
+        return res.status(400).json({
+            success: false,
+            error: 'You must provide an examID',
+        });
+    }
+
+    const exam = new Exam(body);
+    const examId = body._id;
+    console.log(examId);
+    if (!exam) {
+        console.log("NOPE");
+    }
+    else console.log(exam);
+};
+
 module.exports = {
     getExams,
     getExamById,
+    createExam,
 };

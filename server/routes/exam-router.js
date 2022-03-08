@@ -5,6 +5,7 @@ const ExamController = require('../controllers/exam-controller');
 const router = express.Router();
 
 router.get('/exams', ExamController.getExams);
-router.get('/getexam/:id', ExamController.getExamById);
+router.get('/exams/:id', ExamController.getExamById);
+router.post('/exams/:id', ExamController.createExam);
 
 module.exports = router;
